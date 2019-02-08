@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './App.css';
 import Navbar from "./components/navbar"
 import Footerbar from "./components/footerbar"
 class App extends Component {

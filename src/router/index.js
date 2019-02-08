@@ -17,16 +17,16 @@ const router = (
 <Provider store={store}>
 <Router>
 		<App>
-			
 			<Switch>
 				<Route path="/one" component={one} exact></Route>
 				<Route path="/two" component={two} exact></Route>
 				<Route path="/three" component={three} exact></Route>
 				<Route path="four" component={four} exact></Route>
+				<Route path="/Login" component={Login} exact></Route>
 				<Route path="/Detail/:id" component={Detail} exact></Route>
-				<Route path="/Login" component={Login}></Route>
+			
 	
-				<Redirect from="*" to="/one"/>
+				<Redirect from="*" to="/one"/>	
 			</Switch>		
 
 		</App>
